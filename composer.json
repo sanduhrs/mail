@@ -1,0 +1,24 @@
+{
+    "name": "drupal/mail",
+    "type": "drupal-module",
+    "description": "Mail integration.",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.horde.org"
+        }
+    ],
+    "require": {
+        "pear-pear.horde.org/Horde_Imap_Client": "*",
+        "pear-pear.horde.org/Horde_Cache": "*"
+    },
+    "license": "GPL-2.0+",
+    "homepage": "https://drupal.org/project/mail",
+    "authors": [
+        {
+            "name": "Stefan Auditor (sanduhrs)",
+            "homepage": "https://www.drupal.org/u/sanduhrs"
+        }
+    ],
+    "keywords": ["drupal", "mail"]
+}
